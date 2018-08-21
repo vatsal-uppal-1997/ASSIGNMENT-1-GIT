@@ -1,8 +1,8 @@
 git init  ---> Intialises a directory for git
 git status ---> Shows status of which file is being tracked and which is not
 git add <file/folder name> ---> Add a file/folder to be tracked by git
-git --config local user.name ---> Configure a user name (locally)
-git --config local user.email ---> Configure a user email (locally)
+git config --local user.name ---> Configure a user name (locally)
+git config --local user.email ---> Configure a user email (locally)
 git commit -m <message. ---> Finalise git add and add file/folders to be tracked
 git remote add origin git@github.com:vatsal-uppal-1997/<online repository> ---> Define the origin variable to point to the online git repository
 git push -u origin master ---> Push the local repository online to github.com
